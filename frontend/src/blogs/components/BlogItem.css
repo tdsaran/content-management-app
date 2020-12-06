@@ -1,0 +1,40 @@
+.blog-item {
+  margin: 1rem 0;
+}
+
+.blog-item__content {
+  padding: 0;
+  display: flex;
+}
+
+.blog-item__info {
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+}
+
+.blog-item__info h2,
+.blog-item__info h3,
+.blog-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.blog-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  min-width: 255px;
+}
+
+.blog-item__modal-content {
+  padding: 0;
+}
+
+.blog-item__modal-actions {
+  text-align: right;
+}
+
+.blog-item__actions button,
+.blog-item__actions a {
+  margin: 0.5rem;
+}
